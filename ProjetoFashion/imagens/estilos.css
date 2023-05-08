@@ -1,5 +1,6 @@
-body{
-   padding: 80px;
+#principal{
+   width: 1024px;
+   margin:20px auto;
     
 }
 
@@ -28,6 +29,7 @@ li a{
 li a:hover{
     color: white;
     font-size: 17px;
+
 }
 
 .inicio{
@@ -66,7 +68,8 @@ h1{
 
 .card{
     display: inline-block;
-    width: 33%;
+    width: 32%;
+    margin-right: 8px;
     
 }
 
@@ -97,12 +100,10 @@ h2{
 
 article{
     background-image: url(bg_detalhe.png);
-    width: 100%;
-    height: 500px;
-    margin: auto;
-    background-attachment: fixed;
-    background-size: 100% 100%;
+    background-color: #003d52;
+    padding: 100px;
     background-repeat: no-repeat;
+    background-position: right bottom;
     
     
 
@@ -110,20 +111,17 @@ article{
 
 .h3{
     color: white;
-    margin-left: 90px;
-    padding: 20px;
     font-size: 50px;
     font-family: sans-serif;
+    margin-top: -50px;
     
 }
 
 article p{
     color: white;
-    margin-left: 90px;
-    padding: 20px;
     font-size: 18px;
     font-family: sans-serif;
-    margin-top: -40px;
+    width: 70%;
 }
 
 h4{
@@ -140,4 +138,14 @@ footer{
     text-align: center;
     padding: 5px;
     margin-top: 50px;
+    letter-spacing: 5px;
+}
+.maps{
+    width: 100%;
+    height: 450px;
+    margin-top: 15px;
+}
+
+.maps iframe{
+    width: 100%;
 }
